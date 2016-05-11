@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+    <head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>One-column fixed-width responsive layout</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="Description" lang="en" content="ADD SITE DESCRIPTION">
+		<meta name="author" content="Kylie LaCour">
+		<meta name="robots" content="index, follow">
+
+		<!-- icons -->
+		<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+		<link rel="shortcut icon" href="favicon.ico">
+
+		<!-- Override CSS file - add your own CSS rules -->
+        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="stylesheet" href="assets/css/styles.css">
+    </head>
+	<body>
+		<div class="container">
+			<div class="header"><a href="/index.html">
+                <div class="header-shake">
+				<h1 class="header-heading">printwell club</h1>
+                <div class="texture"></div>
+                </div></a>
+            </div>
+			<div class="nav-bar">
+				<ul class="nav">
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="http://www.psu.gd/">PSU.GD</a></li>
+				</ul>
+                <form id="searchbox" action="">
+                    <input id="search" type="text" placeholder="">
+                    <input id="submit" type="submit" value="Search">
+                </form>
+			</div>
+            
+			<div class="content">
+				<div class="main">
+                    <h1>All About Bleed</h1>
+                    <p>A design destined for print requires setting up to certain specifications to ensure that the work is printed correctly by industrial lithographic or digital print firms. This often starts with the initial document upon which the design is to be created by adding the correct bleed area and crop marks. Let’s take a look at what crops and bleed actually are, why they are required and how to set them up in your favourite Adobe package.</p>
+                    
+                    <h3>Baffling Bleed</h3>
+                    <p>Let’s start with the term bleed, this is the area of artwork that is extended beyond the actual dimensions of the document. It is used to avoid strips of white paper showing on the edges of your print should the batch be misaligned when cut to size.
+                    <br>
+                    Any objects in your artwork that touch the edges of the document require bleed, for instance a background colour or image should spread to cover the entire bleed area as should any objects that creep in from the side of the page.</p>
+                    <img class="img-responsive" src="bleed_img/1.gif" alt="">
+                    <p>In the UK at least, bleed of 3mm is commonly required. This 3mm accounts for each of the four sides of the page, therefore you should add 6mm to the width and height of the document, for example:</p>
+                    <img class="img-responsive" src="bleed_img/2.gif" alt="">
+                    <p>A4 Paper = 210mm x 297mm<br>
+                        210mm + 6mm = 216mm<br>
+                        297mm + 6mm = 303mm<br><br>
+                        Total Document Size = <strong>216mm x 303mm</strong>
+                    </p>
+                     <img class="img-responsive" src="bleed_img/3.gif" alt="">
+                    <p>
+                    In addition to bleed, you should also add a margin to the edges of the document to avoid having your objects look as if they are about to fall of the page or even worse actually get cropped off when the document is trimmed! The amount of margin is personal preference, but 3mm, 5mm or 10mm is usually used depending on the size of the overall design.
+                    </p>
+                    <h3>Setting Bleed in Photoshop</h3>
+                    <img class="img-responsive" src="bleed_img/4.gif" alt="">
+                    <p>
+                        When creating your document, simply make the calculations to the artwork size as above and enter them into the Width and Height boxes.
+                    </p>
+                </div>
+			</div>
+            
+			<div class="footer">
+				&copy; Copyright 2016
+			</div>
+		</div>
+	</body>
+    
+<script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+<script src="isotope-docs/js/isotope-docs.min.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="https://npmcdn.com/isotope-layout@3.0/dist/isotope.pkgd.js"></script>
+</html>
