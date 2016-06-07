@@ -20,9 +20,10 @@
 	<body>
         
         <div class="shortcut">
-            <div class="step1"><a class="step1" href="#1">1</a></div>
-            <div class="step1"><a class="step1" href="#2">2</a></div>
-            <div class="step1"><a class="step1" href="#3">3</a></div>
+            <div class="step1"><a class="step1" href="#1">1</a><div class="showme">baffling bleed</div></div>
+            <div class="step1"><a class="step1" href="#2">2</a><div class="showme">but why?</div></div>
+            <div class="step1"><a class="step1" href="#3">3</a><div class="showme">don't forget margin!</div></div>
+            <div class="step1"><a class="step1" href="#4">4</a><div class="showme">how to</div></div>
             <div class="top1"><a class="top" href="#top">top</a></div>
         </div>
         
@@ -37,8 +38,11 @@
             </div>
 			<div class="nav-bar">
 				<ul class="nav">
-                    <li><a href="#">ABOUT</a></li>
-                    <li><a href="http://www.psu.gd/">PSU.GD</a></li>
+                    <li><a href="/before.html">BEFORE</a></li>
+                    <li><a href="/during.html">DURING</a></li>
+                    <li><a href="/after.html">AFTER</a></li>
+                    <li><a href="/about.html">SUBMIT</a></li>
+                    <li id="psugd"><a href="http://www.psu.gd/" target="_blank">PSU.GD</a></li>
 				</ul>
                 <form id="searchbox" action="">
                     <input id="search" type="text" placeholder="">
@@ -58,20 +62,20 @@
                         <span class="number">1</span> baffling bleed</h3>
                     
                     <p>Let’s start with the term bleed, this is the area of artwork that is extended beyond the actual dimensions of the document. It is used to avoid strips of white paper showing on the edges of your print should the batch be misaligned when cut to size.
-                    </p><p>
-                    Any objects in your artwork that touch the edges of the document require bleed, for instance a background colour or image should spread to cover the entire bleed area as should any objects that creep in from the side of the page.</p>
+                    </p>
+                    <p>
+                    Any objects in your artwork that touch the edges of the document require bleed, for instance a background colour or image should spread to cover the entire bleed area as should any objects that creep in from the side of the page.
+                    </p>
+                    <p>
+                    For example, if you have designed a standard 3.5" x 2" business card with a red background covering the whole area, you will need to enlarge that red background to 3.75" x 2.25". This will make the red background extend 1/8" on every side of the page.
+                    </p>
                     <img class="img-responsive" src="bleed_img/1.gif" alt="">
                     
                       <a name="2"></a>
                     <h3 class="subhead">
-                        <span class="number">2</span> HOW MUCH?</h3>
+                        <span class="number">2</span> BUT WHY?</h3>
                     
-                    <p>In the UK at least, bleed of 3mm is commonly required. This 3mm accounts for each of the four sides of the page, therefore you should add 6mm to the width and height of the document, for example:</p>
-                    <img class="img-responsive" src="bleed_img/2.gif" alt="">
-                    <p>A4 Paper = 210mm x 297mm<br>
-                        210mm + 6mm = 216mm<br>
-                        297mm + 6mm = 303mm<br><br>
-                        Total Document Size = <strong>216mm x 303mm</strong>
+                    <p>Small mechanical variations can end up leaving a hairline white edge where there should be no white edge at all, if the image is not extended beyond the final trim size. Extending images 1/8" beyond the final trim size guarantees that images truly will go all the way to the edge of the printed paper.
                     </p>
                      <img class="img-responsive" src="bleed_img/3.gif" alt="">
                     
@@ -81,6 +85,34 @@
                     
                     <p>
                     In addition to bleed, you should also add a margin to the edges of the document to avoid having your objects look as if they are about to fall of the page or even worse actually get cropped off when the document is trimmed! The amount of margin is personal preference, but 3mm, 5mm or 10mm is usually used depending on the size of the overall design.
+                    </p>
+                    
+                      <a name="4"></a>
+                    <h3 class="subhead">
+                        <span class="number">4</span> HOW TO</h3>
+                    
+                    <p>
+                    <strong>Adobe Photoshop</strong><br><br>
+
+&bull; Open Photoshop and click File > New...<br>
+&bull; Enter the FULL BLEED dimensions. That is, 1/4" extra both vertically and horizontally.<br>
+&bull; Set the Resolution at 300 pixels/inch<br>
+&bull; Set the Color Mode to CMYK<br><br>
+                        
+<strong>Adobe Illustrator</strong><br><br>
+
+&bull; Open Illustrator and click File > New...<br>
+&bull; Enter the TRIM dimensions in the Width and Height boxes (for example, the trim dimension on a standard business card would be 3.5" x 2")<br>
+&bull; Enter 0.125 for the top, bottom, left and right bleed<br>
+&bull; Set the the Color Mode to CMYK<br>
+&bull; Set the Raster Effects at High (300ppi)<br><br>
+                        
+<strong>Adobe InDesign</strong><br><br>
+
+&bull; Open InDesign and click File > New > Document...<br>
+&bull; Enter the TRIM dimensions under Page Size (for example, a standard business card would have trim dimensions of 3.5" x 2")<br>
+&bull; If you do not see "Bleed and Slug" at the bottom of the window, click the "More Options" button.<br>
+&bull; Enter 0.125 for the top, bottom, left and right bleed<br>
                     </p>
                     
                 </div> </div>
