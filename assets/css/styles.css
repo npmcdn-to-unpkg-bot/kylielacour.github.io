@@ -3,19 +3,6 @@
 Base styles
 ------------------------*/
 
-@font-face{
-    font-family: 'AvenirNext';
-    src: url('../fonts/AvenirNext.ttc');
-    src: url('../fonts/AvenirNext2.ttc');
-    src: url('../fonts/AvenirNext3.ttc');
-    src: url('../fonts/AvenirNext4.ttc');
-    src: url('../fonts/AvenirNext5.ttc');
-    src: url('../fonts/AvenirNext6.ttc');
-    src: url('../fonts/AvenirNext7.ttc');
-    src: url('../fonts/AvenirNext8.ttc');
-    
-}
-
 a:link { color: #ff6f69;
 text-decoration: none;}
 a:visited {color: #ff6f69;
@@ -58,7 +45,7 @@ h3.subhead:before {
 
 .step1{
     color: #fff;
-    font-family: 'AvenirNext', 'Helvetica', sans-serif;
+    font-family: 'Avenir', 'Helvetica', sans-serif;
     text-transform: uppercase;
     font-weight: 900;
     letter-spacing: .1em;
@@ -84,7 +71,7 @@ a.step1:hover{
 
 .top{
     color: #fff;
-    font-family: 'AvenirNext', 'Helvetica', sans-serif;
+    font-family: 'Avenir', 'Helvetica', sans-serif;
     text-transform: uppercase;
     font-weight: 900;
     letter-spacing: .1em;
@@ -93,7 +80,7 @@ a.step1:hover{
 
 .top1{
     color: #fff;
-    font-family: 'AvenirNext', 'Helvetica', sans-serif;
+    font-family: 'Avenir', 'Helvetica', sans-serif;
     text-transform: uppercase;
     font-weight: 900;
     letter-spacing: .1em;
@@ -121,7 +108,7 @@ body{
     background-image: url("../img/grid_pattern.svg");
      background-size: 71px;
     background-repeat: tile;
-	font-family: 'AvenirNext', 'Helvetica', sans-serif;
+	font-family: 'Avenir', 'Helvetica', sans-serif;
 }
 
 h1,h2,h3,h4,h5,h6{
